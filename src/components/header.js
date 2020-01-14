@@ -6,9 +6,10 @@ export default function Header() {
   return (
     <Nav>
       <div>
-        <Link to="/">
+        <LogoLink to="/">
           <NavLogo src={Logo} />
-        </Link>
+          <LogoFont>Asam Shan</LogoFont>
+        </LogoLink>
       </div>
       <div>
         <NavLink activeStyle={activeStyles} to="/">
@@ -41,6 +42,17 @@ const Nav = styled.nav`
   align-items: center;
 `
 
+const LogoFont = styled.h1`
+  margin: 0;
+`
+
+const LogoLink = styled(Link)`
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+`
+
 const NavLink = styled(props => <Link {...props} />)`
   font-family: Montserrat;
   font-weight: 800;
@@ -62,6 +74,7 @@ const activeStyles = {
 }
 
 const NavLogo = styled.img`
-  height: 10vh;
+  height: 50px;
   margin: 0;
+  padding-right: 10px;
 `
