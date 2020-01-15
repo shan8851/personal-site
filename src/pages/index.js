@@ -10,9 +10,9 @@ const IndexPage = () => (
     <h1>Hi, my name is Asam.</h1>
     <p>Welcome to my site, glad to have you here.</p>
     <p>
-      I am a software developer from the UK, Iwas a little late to the party,
-      transitioning into the industry just north of 30, but absoloutely loving
-      it ever since.
+      I am a software developer from the UK, I'm passionate about all things
+      JavaScript, expecially React, open source software and am particular fond
+      of the Jamstack!
     </p>
     <p>
       This site was built with Gatsby, styled using Styled-Components and hosted

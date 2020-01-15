@@ -40,6 +40,10 @@ const Nav = styled.nav`
   margin: 20px 20px;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 990px) {
+    flex-direction: column;
+    justify-content: center;
+  }
 `
 
 const LogoFont = styled.h1`
@@ -64,6 +68,9 @@ const NavLink = styled(props => <Link {...props} />)`
   }
   & :hover {
     color: #fff;
+  }
+  @media (max-width: 580px) {
+    font-size: 18px;
   }
 `
 
