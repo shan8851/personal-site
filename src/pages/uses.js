@@ -1,13 +1,13 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/shared/layout"
 import SEO from "../components/seo"
-import { StyledLink } from "../components/shared/StyledLink"
+import { StyledLink, Heading } from "../components/shared/Shared"
 
 export default function Uses() {
   return (
     <Layout>
       <SEO title="Uses" />
-      <h1>Uses:</h1>
+      <Heading>Uses</Heading>
       <p>
         Seems all the cool kids have a uses page these days, so I figured I
         would join the club, I'll hopefully get to add to this list on a regular

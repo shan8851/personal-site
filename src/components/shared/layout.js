@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Header from "../header"
+import Footer from "../footer"
 import styled from "styled-components"
 import "./layout.css"
 
@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
+          maxWidth: 1260,
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
           flex: 1,

@@ -1,12 +1,12 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/shared/layout"
 import SEO from "../components/seo"
-import { StyledLink } from "../components/shared/StyledLink"
+import { StyledLink, Heading } from "../components/shared/Shared"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi, my name is Asam.</h1>
+    <Heading>Hi, my name is Asam.</Heading>
     <p>Welcome to my site, glad to have you here.</p>
     <p>
       I am a software developer from the UK, I'm passionate about all things

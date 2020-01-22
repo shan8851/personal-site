@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "heading": "Project 1",
+    "blurb": "Brief description here",
+    "tech": "React/Gatsby/Netlify",
+    "repo": "https//github.com/shan5742",
+    "demo": "https://shan5742.github.io/"
+  },
+  {
+    "id": 1,
+    "heading": "Project 2",
+    "blurb": "Brief description here",
+    "tech": "React/Gatsby/Netlify",
+    "repo": "https//github.com/shan5742",
+    "demo": "https://shan5742.github.io/"
+  },
+  {
+    "id": 2,
+    "heading": "Project 3",
+    "blurb": "Brief description here",
+    "tech": "React/Gatsby/Netlify",
+    "repo": "https//github.com/shan5742",
+    "demo": "https://shan5742.github.io/"
+  },
+  {
+    "id": 3,
+    "heading": "Project 4",
+    "blurb": "Brief description here",
+    "tech": "React/Gatsby/Netlify",
+    "repo": "https//github.com/shan5742",
+    "demo": "https://shan5742.github.io/"
+  },
+  {
+    "id": 4,
+    "heading": "Project 5",
+    "blurb": "Brief description here",
+    "tech": "React/Gatsby/Netlify",
+    "repo": "https//github.com/shan5742",
+    "demo": "https://shan5742.github.io/"
+  },
+  {
+    "id": 5,
+    "heading": "Project 6",
+    "blurb": "Brief description here",
+    "tech": "React/Gatsby/Netlify",
+    "repo": "https//github.com/shan5742",
+    "demo": "https://shan5742.github.io/"
+  }
+]

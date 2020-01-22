@@ -1,8 +1,7 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/shared/layout"
 import SEO from "../components/seo"
-import styled from "styled-components"
-import { StyledA } from "../components/shared/StyledA"
+import { StyledA, Heading } from "../components/shared/Shared"
 
 export default function About() {
   return (
@@ -91,7 +90,3 @@ export default function About() {
     </Layout>
   )
 }
-
-const Heading = styled.h1`
-  margin-top: 100px;
-`

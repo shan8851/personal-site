@@ -1,8 +1,9 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Layout from "../components/layout"
+import Layout from "../components/shared/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
+import { Heading } from "../components/shared/Shared"
 
 class BlogIndex extends React.Component {
   render() {
@@ -14,7 +15,7 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.title} title={siteTitle}>
         <SEO title="Blog" />
         <IndexWrapper>
-          <h1>All Posts</h1>
+          <Heading>All Posts</Heading>
           {posts.map(({ node }) => {
             const title = node.frontmatter.description
             return (
