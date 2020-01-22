@@ -1,8 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import styled from "styled-components"
+import { StyledLink } from "../components/shared/StyledLink"
 
 const IndexPage = () => (
   <Layout>
@@ -20,25 +19,17 @@ const IndexPage = () => (
     </p>
     <p>
       I like to write a bit, check out my blog{" "}
-      <HomeLink to="/blog">HERE</HomeLink>.
+      <StyledLink to="/blog">HERE</StyledLink>.
     </p>
     <p>
-      Want to know more about me? Go <HomeLink to="/about">HERE</HomeLink>.
+      Want to know more about me? Go <StyledLink to="/about">HERE</StyledLink>.
     </p>
     <p>
       I love connecting with other like minded folk,so if you would like to work
       together, chat or anything else then you can contact me{" "}
-      <HomeLink to="/about">HERE</HomeLink>.
+      <StyledLink to="/about">HERE</StyledLink>.
     </p>
   </Layout>
 )
 
 export default IndexPage
-
-const HomeLink = styled(Link)`
-  text-decoration: none;
-  font-family: Montserrat;
-  font-weight: 900;
-  color: #fffff0;
-  border-bottom: 4px solid black;
-`
