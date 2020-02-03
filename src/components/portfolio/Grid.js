@@ -7,8 +7,8 @@ export default function Grid() {
     <GridContainer>
       {data.map(d => (
         <Item>
-          <h2>{d.heading}</h2>
-          <img src="https://picsum.photos/200" />
+          <Heading>{d.heading}</Heading>
+          <img style={{ height: 200 }} src={d.image} />
           <Blurb>{d.blurb}</Blurb>
           <Tech>{d.tech}</Tech>
           <LinkArea>
@@ -34,11 +34,18 @@ const GridContainer = styled.div`
 const Item = styled.div`
   display: flex;
   flex-direction: column;
+  width: 30%;
   justify-content: center;
   align-items: center;
   border: 6px solid black;
   margin: 20px;
   padding: 20px;
+`
+
+const Heading = styled.h1`
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
 `
 
 const Tech = styled.p`
@@ -47,6 +54,8 @@ const Tech = styled.p`
 
 const Blurb = styled.p`
   font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
 `
 
 const LinkArea = styled.div`

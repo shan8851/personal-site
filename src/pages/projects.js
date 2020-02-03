@@ -10,8 +10,7 @@ export default function Projects() {
       <SEO title="Projects" />
 
       <Heading>Projects</Heading>
-      <p>There is nothing here yet...</p>
-      <p>This section will be updated soon.</p>
+      <p>A collection of things I have been working on past and present</p>
       <Grid />
       <StyledLink>Go Home</StyledLink>
     </Layout>

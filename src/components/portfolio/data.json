@@ -1,49 +1,55 @@
 [
   {
     "id": 0,
-    "heading": "Project 1",
-    "blurb": "Brief description here",
-    "tech": "React/Gatsby/Netlify",
-    "repo": "https//github.com/shan5742",
+    "heading": "Virtual Business Card",
+    "blurb": "Short and sweet, all my contact details and social links in one place",
+    "tech": "HTML/CSS/GH Pages",
+    "image": "https://i.ibb.co/T0P5NYq/businesscard.png",
+    "repo": "https://github.com/shan5742/shan5742.github.io",
     "demo": "https://shan5742.github.io/"
   },
   {
     "id": 1,
-    "heading": "Project 2",
-    "blurb": "Brief description here",
+    "heading": "Blog",
+    "blurb": "Dev/Life/Anything blog, hosted on this site",
     "tech": "React/Gatsby/Netlify",
-    "repo": "https//github.com/shan5742",
-    "demo": "https://shan5742.github.io/"
+    "image": "https://i.ibb.co/fXYT80w/blog.png",
+    "repo": "https://github.com/shan5742/personal-site",
+    "demo": "https://www.asamshan.dev/blog/"
   },
   {
     "id": 2,
-    "heading": "Project 3",
-    "blurb": "Brief description here",
+    "heading": "Rock Paper Scissord",
+    "blurb": "Fan of The Big Bang Theory? Then you will have heard of rock, paper, lizard, spock",
     "tech": "React/Gatsby/Netlify",
+    "image": "https://i.ibb.co/xS2PkFM/rplss.png",
     "repo": "https//github.com/shan5742",
     "demo": "https://shan5742.github.io/"
   },
   {
     "id": 3,
-    "heading": "Project 4",
-    "blurb": "Brief description here",
+    "heading": "Personal Site",
+    "blurb": "My personal site, you are here now, so you know what it is all about",
     "tech": "React/Gatsby/Netlify",
-    "repo": "https//github.com/shan5742",
-    "demo": "https://shan5742.github.io/"
+    "image": "https://i.ibb.co/zJT9Czd/site.png",
+    "repo": "https://github.com/shan5742/personal-site",
+    "demo": "https://www.asamshan.dev"
   },
   {
     "id": 4,
-    "heading": "Project 5",
-    "blurb": "Brief description here",
-    "tech": "React/Gatsby/Netlify",
+    "heading": "Coming Soon",
+    "blurb": "Check back for more great projects",
+    "tech": "Vue?, TypeScript?, AWS?",
+    "image": "https://source.unsplash.com/random",
     "repo": "https//github.com/shan5742",
     "demo": "https://shan5742.github.io/"
   },
   {
     "id": 5,
-    "heading": "Project 6",
-    "blurb": "Brief description here",
-    "tech": "React/Gatsby/Netlify",
+    "heading": "Coming Soon",
+    "blurb": "I have some ideas!",
+    "tech": "React Native? Firebase? ",
+    "image": "https://source.unsplash.com/random",
     "repo": "https//github.com/shan5742",
     "demo": "https://shan5742.github.io/"
   }
