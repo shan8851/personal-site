@@ -1,6 +1,6 @@
 ---
 path: "/blog/automation"
-date: "2020-02-4"
+date: "2020-02-04"
 title: "Automation 😍"
 description: "Automation 😍"
 ---
