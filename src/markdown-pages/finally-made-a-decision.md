@@ -1,7 +1,7 @@
 ---
+path: "/blog/finally-made-a-decision"
 date: "2018-11-21"
 title: "Finally Made a Decision"
-path: "/blog/finally-made-a-decision"
 ---
 For some time now I have been a little torn. From the outset of my journey into programming I have been using JavaScript with a keen interest in React, this has not slowed down and React is what I am most excited about right now.
 

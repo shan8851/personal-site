@@ -1,7 +1,7 @@
 ---
+path: "/blog/go-make-things"
 date: "2018-09-09"
 title: "Go Make Things"
-path: "/blog/go-make-things"
 ---
 Over the past few weeks I have gotten into kind of a rut and have been managing my time poorly. I sat and had a think about things last night and I realised that this whole programming journey is consuming a big part of my life, which I'm fine with, happy with in fact, but I have realised that the majority of time is not spent writing code....
 

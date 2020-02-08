@@ -1,7 +1,7 @@
 ---
+path: "/blog/discord"
 date: "2018-08-24"
 title: "Discord"
-path: "/blog/discord"
 ---
 Following on from my last post I decided to make it easier for you to get in touch. I have created a Discord Server for people who are new to web developement where I will offer as much help as I can. Hopefully long term this server can attract more experienced people who can help with more advanced topics and in time I will be able to do this also. As long as everyone does their bit to help others it should have no problem growing into a helpful little community.
 

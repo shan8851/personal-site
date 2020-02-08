@@ -1,7 +1,7 @@
 ---
+path: "/blog/mindfulness"
 date: "2018-09-11"
 title: "Mindfulness"
-path: "/blog/mindfulness'
 ---
 
 So far on this blog I have not really talked about anything other than programming, so I thought I will change that a little and talk a little about my personal life and some of the things I'm trying to achieve. First off I should say a little bit about my better half. She is absolutely amazing - literally the main reason for me wanting to better myself - or at least that is what I thought. However it turned out that I wanted to be better for me and she just helped me realise that. My partner is a mental health nurse and is very passionate about her career. Naturally we talk a lot about her work and she is very aware of mindfulness and mental health in general. She often talks about the challenges she faces and the types of personalities she deals with, referencing different techniques that her and her colleagues will use to help patients. Mindfulness is something that comes up a lot and not something I ever really thought about until recently.

@@ -1,7 +1,7 @@
 ---
+path: "/blog/hacktoberfest"
 date: "2018-10-01"
 title: "Hacktoberfest, Nerves and the Best Developer Community Yet"
-path: "/blog/hacktoberfest"
 ---
 It's been a little while since my last post, not too much has happened. Since landing my first tech interview I have been kinda just floating through time without doing too much... This isn't great, but I didn't wanna fill my mind with lots of different things as I knew I would need to be talking about my recent project. However it has taken longer than I first anticipated, so I feel like I have wasted a lot of quality learning time.
 

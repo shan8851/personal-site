@@ -1,7 +1,7 @@
 ---
+path: "/blog/interview-reflection"
 date: "2018-10-07"
 title: "Interview Reflection"
-path: "/blog/interview-reflection"
 ---
 My first every developer interview is complete and overall it was a great experience. I have been somewhat anxious about the interview for a while, so on the morning I actually felt somewhat relieved that the wait would be over and I could then continue with my studies.
 

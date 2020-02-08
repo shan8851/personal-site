@@ -1,7 +1,7 @@
 ---
+path: "/blog/react"
 date: "2018-08-27"
 title: "React"
-path: "/blog/react"
 ---
 When I first started studying JavaScript I seen a lot of advice from people saying to learn vanilla JS as much as possible before moving onto any frameworks. I always new that I wanted to learn and use Reatc, but I wanted to follow that advice and learn as much JS as possible beforehand. This has been somewhat troublesome for me as I have found a lot of JS pretty tough and no matter how much I did learn I always knew that there was more I could do. So, I do now have a good foundation in vanilla JS... I am by no means an expert but I figured I had held off long enough and I should start at least looking into React.
 

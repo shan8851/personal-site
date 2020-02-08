@@ -1,7 +1,7 @@
 ---
+path: "/blog/keeping-records"
 date: "2018-08-28"
 title: "Keeping Records"
-path: "/blog/keeping-records"
 ---
 I was browsing [r/learnprogramming](https://www.reddit.com/r/learnprogramming/) the other day, which is a fantastic subreddit btw when I stumbled across a great link which led me to [this](https://bttrdvlpr.com/start/) article. You sshould definitely go and read it and then join the Discord group like I did. It has turned out to be a great community led by a passionate guy who genuinely wants to help people. Yes, that is another fantastic person who spends a lot of his own time helping others.... I have said numerous times, but I will say it again, the developer community really blows my mind when it comes to people helpoing each other learn. Anyway, I ended up sending a few private messages back and forth with the site owner and he has suggested a couple of things to me that I thought I would share here. First off is record keeping, which is super important for accountability and some of the reason I started this blog. However a blog has a lot of fluff that comes with it, so he had a better idea.
 

@@ -1,7 +1,7 @@
 ---
+path: "/blog/think-first"
 date: "2018-10-16"
 title: "Think Before Getting On the Hype Train"
-path: "/blog/think-first"
 ---
 The internet is a wonderful place with a ton of information, we are in an era where we can teach ourselves anything, a lot of us on the self learning path no this all too well. However the other side of the coin is that the internet can be a dangerous place, full of opinion stated as fact, full of people claiming that there personal experience and circumstance is the same for everyone, which I hope is pretty obviously false.
 

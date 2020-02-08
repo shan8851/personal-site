@@ -1,7 +1,7 @@
 ---
+path: "/blog/mia"
 date: "2018-09-17"
 title: "Missing in Action"
-path: "/blog/mia"
 ---
 It has been a while by my standards since my last post here, I have been super busy with a really important project, it is pretty much complete now, so I figured I would give you guys an update to what has been going on.
 

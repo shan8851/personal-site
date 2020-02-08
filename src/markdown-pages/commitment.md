@@ -1,7 +1,7 @@
 ---
+path: "/blog/commitment"
 date: "2018-08-18"
 title: "Make a Commitment"
-path: "/blog/commitment"
 ---
 
 Commitment is super important in all walks of life. Learning programming is no different. I spend a lot of time going through the #100DaysOfCode community and see many people are getting started with programming everyday which is great. 

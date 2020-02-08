@@ -1,7 +1,7 @@
 ---
+path: "/blog/applying-before-ready"
 date: "2018-11-04"
 title: "Applying to Jobs Before You're Ready"
-path: "/blog/applying-before-ready"
 ---
 
 If you have done any research into getting a job as a self taught developer then you will no doubt have ready many times that you should be applying to jobs way before you are ready, which for many of us (myself included) is not that easy to understand.

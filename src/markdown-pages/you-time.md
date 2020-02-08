@@ -1,7 +1,7 @@
 ---
+path: "/blog/you-time"
 date: "2018-09-07"
 title: "You Time"
-blog: "/blog/you-time"
 ---
 
 So, ironically my last update was 7 days ago... I was saying how well everything was going and how great a month August was. The irony is because since then I have barely done a thing... I have had a lot on. A current freelance project is taking up a  lot of my time, some changes at the day job as well as various family events have all caused me to be away form my javascript, challenges, daily log and Udemy videos. At first this was making me a little annoyed at myself and I felt like I had lost some progress and momentum. The latter point may be true in some regards, but honestly, it just doesn't matter.

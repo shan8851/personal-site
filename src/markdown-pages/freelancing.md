@@ -1,7 +1,7 @@
 ---
+path: "/blog/freelancing"
 date: "2018-11-12"
 title: "Freelancing"
-path: "/blog/freelancing"
 ---
 I have talked a little about freelancing on this blog before, it is often something that is recommended to new developers as a way of gaining experience, getting paid and getting started.
 

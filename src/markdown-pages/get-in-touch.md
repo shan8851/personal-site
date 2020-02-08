@@ -1,7 +1,7 @@
 ---
+path: "/blog/get-in-touch"
 date: "2018-08-25"
 title: "Get In Touch"
-path: "/blog/get-in-touch"
 ---
 After my [post](https://shan5742.github.io/web-developer-ZTM-review/) yesterday writing a review of ZTM I had a guy on Twitter reach out with some questions.
 

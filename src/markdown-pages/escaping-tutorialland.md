@@ -1,7 +1,7 @@
 ---
+path: "/blog/escaping-tutorialand"
 date: "2018-09-08"
 title: "Escaping Tutorialand"
-path: "/blog/escaping-tutorialand"
 ---
 
 For the past month or so I have been somewhat in limbo, I feel comfortable following along with tutorials and can get things working with relative ease, but they are starting to feel less and less challenging and in turn less and less interesting. Once you have the basics down it becomes pretty tedious to basically copy and paste what someone else is doing. You soon realise you are not really learning too much at all and the things you do learn are harder to retain because copying somebody else is not challenging enough.

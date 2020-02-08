@@ -1,7 +1,7 @@
 ---
+path: "/blog/reset"
 date: "2018-11-29"
 title: "Reset followed by a BIG push"
-path: "/blog/reset"
 ---
  I've been a little quieter than I would like on this blog and with programming in general, the passion is still very much there, but as often is the case real life gets in the way. I've been super busy helping a family member with a new business, which has been great. It is nice to get involved with it as business is something that has always been of interest to me, seeing something grow day on day is pretty great. However, being involved with that and other things that are going on have meant I have had way less time to code, so I need to rectify that. 
  

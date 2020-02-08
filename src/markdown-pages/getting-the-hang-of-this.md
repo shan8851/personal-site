@@ -1,7 +1,7 @@
 ---
+path: "/blog/getting-the-hang-of-this"
 date: "2019-02-04"
 title: "Feel Like I'm Getting the Hang of This!"
-path: "/blog/getting-the-hang-of-this"
 ---
 
 I'm going to try and avoid starting every post with a - 'it's been so long...' - and in reality this blog is now really just my own musings, just somewhere for me to put down my thoughts.

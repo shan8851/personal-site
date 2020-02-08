@@ -1,7 +1,7 @@
 ---
+path: "/blog/laravel"
 date: "2018-10-29"
 title: "Laravel"
-path: "/blog/laravel"
 ---
 Happy to report that since I have had a word with myself my productivity has increased.
 

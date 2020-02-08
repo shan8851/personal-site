@@ -1,7 +1,7 @@
 ---
+path: "/blog/ztm"
 date: "2018-08-23"
 title: "ZTM Review"
-path: "/blog/zt,"
 ---
 
 I was recently asked on Twitter what my favourite sources for learning Web Development was and amongst others my top pick has been Andrei Neagioe’s... [The Complete Web Developer in 2018:Zero to Mastery](https://www.udemy.com/the-complete-web-developer-in-2018/) course on Udemy. 

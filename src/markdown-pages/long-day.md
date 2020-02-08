@@ -1,7 +1,7 @@
 ---
+path: "/blog/long-day"
 date: "2018-08-29"
 title: "Looooong Day"
-path: "/blog/long-day"
 ---
 So, as the title suggests today has been a super long day. Possibly the most time I have spent in front of the computer since learning to code! I got a lot done though and for the most part enjoyed it, so overall it has been a great day!
 

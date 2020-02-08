@@ -1,7 +1,7 @@
 ---
+path: "/blog/back-in-the-saddle"
 date: "2018-10-26"
 title: "Back in the Saddle"
-path: "/blog/back-in-the-saddle"
 ---
 
 I've been somewhat slacking since my first interview rejection, part due to being a little disheartened, part due to being a little confused in terms of direction and part due to being busy.

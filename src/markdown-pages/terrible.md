@@ -1,7 +1,7 @@
 ---
+path: "/blog/terrible"
 date: "2019-04-01"
 title: "Terrible blogger is terrible..."
-path: "/blog/terrible"
 ---
 
 Hey, I have had a much harder time maintaining a blog since getting into the industry, which is a shame as you would think I have a lot more to be talking about now, which I guess I do, but at the same time I'm a lot busier now, spend a lot more time in front of my computer now and in general try to make the most of the time I am not, which means some things have ot give and unfortunately this blog has been one of them.

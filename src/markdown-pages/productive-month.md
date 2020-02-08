@@ -1,7 +1,7 @@
 ---
+path: "/blog/productive-month"
 date: "2018-08-31"
 title: "Productive Month"
-path: "/blog/productive-month"
 ---
 
 I have had pretty solid progress throughout August. Coding in some capacity virtually every day. I have connected with some great minds on Discord, LinkedIn and in my local community. All of which have had a positive impact on me. On top of this I have put some plans in place to ensure prolonged progress going forward. Mostly in the form of keeping records, as I discussed in a previous post.

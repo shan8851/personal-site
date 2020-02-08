@@ -1,7 +1,7 @@
 ---
+path: "/blog/my-first-interview"
 date: "2018-09-19"
 title: "My First Tech Interview"
-path: "/blog/my-first-interview'
 ---
 I talked about the technical test I was given in my last post, I managed to get the majority of the requirements done and turn in the test. As the title probably suggests they liked it enough to invite me in for interview, but there are a few things I am a little disappointed with.
 
