@@ -1,8 +1,8 @@
 ---
-path: "/blog/hello-world"
+path: "/blog/hello-world-again"
 date: "2020-01-03"
-title: "Hello World"
-description: "Hello World"
+title: "Hello World --Again"
+description: "Hello World --Again"
 ---
 
 Writing is something I have always had a passion for, I actually had a small stint making a living from writing before I got into development, more on that later - maybe!
