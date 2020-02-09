@@ -17,7 +17,7 @@ class BlogIndex extends React.Component {
         <IndexWrapper>
           <Heading>All Posts</Heading>
           {posts.map(({ node }) => {
-            const title = node.frontmatter.description
+            const title = node.frontmatter.title
             return (
               <div key={node.frontmatter.title}>
                 <div>
