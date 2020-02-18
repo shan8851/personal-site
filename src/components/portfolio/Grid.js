@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { StyledA } from "../shared/Shared.js"
 const data = require("./data.json")
+
 export default function Grid() {
   return (
     <GridContainer>

@@ -19,12 +19,12 @@
   },
   {
     "id": 2,
-    "heading": "Rock Paper Scissord",
-    "blurb": "Fan of The Big Bang Theory? Then you will have heard of rock, paper, lizard, spock",
-    "tech": "React/Gatsby/Netlify",
-    "image": "https://i.ibb.co/xS2PkFM/rplss.png",
-    "repo": "https//github.com/shan5742",
-    "demo": "https://shan5742.github.io/"
+    "heading": "Panda Search",
+    "blurb": "Recruitment website",
+    "tech": "Gatsby/React/Netlify",
+    "image": "https://i.ibb.co/cyk4w5B/panda.jpg",
+    "repo": "https://github.com/shan5742/panda",
+    "demo": "https://pandasearch.netlify.com/"
   },
   {
     "id": 3,
@@ -37,20 +37,14 @@
   },
   {
     "id": 4,
-    "heading": "Coming Soon",
-    "blurb": "Check back for more great projects",
-    "tech": "Vue?, TypeScript?, AWS?",
-    "image": "https://source.unsplash.com/random",
-    "repo": "https//github.com/shan5742",
-    "demo": "https://shan5742.github.io/"
-  },
-  {
-    "id": 5,
-    "heading": "Coming Soon",
-    "blurb": "I have some ideas!",
-    "tech": "React Native? Firebase? ",
-    "image": "https://source.unsplash.com/random",
-    "repo": "https//github.com/shan5742",
-    "demo": "https://shan5742.github.io/"
+    "heading": "Rock Paper Scissors",
+    "blurb": "Fan of The Big Bang Theory? Then you will have heard of rock, paper, lizard, spock",
+    "tech": "Gatsby/React/Netlify",
+    "image": "https://i.ibb.co/xS2PkFM/rplss.png",
+    "repo": "https://github.com/shan5742/rpsls",
+    "demo": "https://shan5742.github.io/rpsls/"
   }
 ]
+
+
+
