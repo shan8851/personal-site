@@ -4,7 +4,7 @@
     "heading": "Virtual Business Card",
     "blurb": "Short and sweet, all my contact details and social links in one place",
     "tech": "HTML/CSS/GH Pages",
-    "image": "https://i.ibb.co/T0P5NYq/businesscard.png",
+    "image": "businesscard.png",
     "repo": "https://github.com/shan5742/shan5742.github.io",
     "demo": "https://shan5742.github.io/"
   },
@@ -13,7 +13,7 @@
     "heading": "Blog",
     "blurb": "Dev/Life/Anything blog, hosted on this site",
     "tech": "React/Gatsby/Netlify",
-    "image": "https://i.ibb.co/fXYT80w/blog.png",
+    "image": "blogpeep.svg",
     "repo": "https://github.com/shan5742/personal-site",
     "demo": "https://www.asamshan.dev/blog/"
   },
@@ -22,7 +22,7 @@
     "heading": "Panda Search",
     "blurb": "Recruitment website",
     "tech": "Gatsby/React/Netlify",
-    "image": "https://i.ibb.co/cyk4w5B/panda.jpg",
+    "image": "pandalogo.jpg",
     "repo": "https://github.com/shan5742/panda",
     "demo": "https://pandasearch.netlify.com/"
   },
@@ -31,7 +31,7 @@
     "heading": "Personal Site",
     "blurb": "My personal site, you are here now, so you know what it is all about",
     "tech": "React/Gatsby/Netlify",
-    "image": "https://i.ibb.co/zJT9Czd/site.png",
+    "image": "BaldPeep.svg",
     "repo": "https://github.com/shan5742/personal-site",
     "demo": "https://www.asamshan.dev"
   },
@@ -40,11 +40,8 @@
     "heading": "Rock Paper Scissors",
     "blurb": "Fan of The Big Bang Theory? Then you will have heard of rock, paper, lizard, spock",
     "tech": "Gatsby/React/Netlify",
-    "image": "https://i.ibb.co/xS2PkFM/rplss.png",
+    "image": "rplss.png",
     "repo": "https://github.com/shan5742/rpsls",
     "demo": "https://shan5742.github.io/rpsls/"
   }
 ]
-
-
-

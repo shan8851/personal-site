@@ -12,7 +12,7 @@ export default function Template({ data }) {
       <SEO title={frontmatter.title} />
       <BlogPostWrapper>
         <h1>{frontmatter.title}</h1>
-        <p>{frontmatter.date}</p>
+        <Date>{frontmatter.date}</Date>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -39,8 +39,15 @@ const BlogPostWrapper = styled.div`
 `
 
 const BackLink = styled(Link)`
-  color: #fffff0;
+  color: #33b284;
   text-decoration: none;
-  font-weight: 900;
+  font-family: bold;
+  font-size: 1.2rem;
   border-bottom: 4px solid black;
+`
+
+const Date = styled.p`
+  font-family: bold;
+  font-size: 1.4rem;
+  color: #33b284;
 `

@@ -4,6 +4,7 @@ import Header from "../header"
 import Footer from "../footer"
 import styled from "styled-components"
 import "./layout.css"
+import "../../../static/fonts/font.css"
 
 const Layout = ({ children }) => {
   return (
@@ -35,4 +36,5 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: #efede1;
 `

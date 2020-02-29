@@ -14,10 +14,9 @@ export default function Uses() {
         basis as I aquire more bits and pieces :)
       </p>
       <h3>
-        {" "}
         <span role="img" aria-label="office">
           🏢
-        </span>
+        </span>{" "}
         Work
       </h3>
       <p>
@@ -31,10 +30,9 @@ export default function Uses() {
         mechanical keyboard at some point to see what all the fuss is about.
       </p>
       <h3>
-        {" "}
         <span role="img" aria-label="home">
           🏠
-        </span>
+        </span>{" "}
         Home Office
       </h3>
       <p>

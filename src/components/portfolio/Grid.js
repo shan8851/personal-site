@@ -9,7 +9,7 @@ export default function Grid() {
       {data.map(d => (
         <Item>
           <Heading>{d.heading}</Heading>
-          <img style={{ height: 200 }} src={d.image} />
+          <img style={{ height: 200 }} src={require(`./${d.image}`)} />
           <Blurb>{d.blurb}</Blurb>
           <Tech>{d.tech}</Tech>
           <LinkArea>
@@ -30,6 +30,7 @@ const GridContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: center;
 `
 
 const Item = styled.div`
@@ -41,6 +42,18 @@ const Item = styled.div`
   border: 6px solid black;
   margin: 20px;
   padding: 20px;
+  @media (max-width: 1250px) {
+    width: 40%;
+  }
+  @media (max-width: 950px) {
+    width: 60%;
+  }
+  @media (max-width: 750px) {
+    width: 80%;
+  }
+  @media (max-width: 650px) {
+    width: 90%;
+  }
 `
 
 const Heading = styled.h1`

@@ -48,6 +48,7 @@ const Nav = styled.nav`
 
 const LogoFont = styled.h1`
   margin: 0;
+  font-family: bold;
 `
 
 const LogoLink = styled(Link)`
@@ -58,16 +59,16 @@ const LogoLink = styled(Link)`
 `
 
 const NavLink = styled(props => <Link {...props} />)`
-  font-family: Montserrat;
+  font-family: bold;
   font-weight: 800;
   margin: 0 10px;
   text-decoration: none;
   color: #000000;
   & :active {
-    color: #fff;
+    color: #33b284;
   }
   & :hover {
-    color: #fff;
+    color: #33b284;
   }
   @media (max-width: 580px) {
     font-size: 18px;
@@ -76,7 +77,7 @@ const NavLink = styled(props => <Link {...props} />)`
 
 //active styles
 const activeStyles = {
-  color: "#fffff0",
+  color: "#33B284",
   borderBottom: "4px solid black",
 }
 
