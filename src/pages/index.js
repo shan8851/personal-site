@@ -37,7 +37,7 @@ const IndexPage = () => (
 
       <p style={{ marginBottom: 0, marginLeft: 15 }}>
         Want to know more about me? Go
-        <StyledLink to="/blog"> HERE</StyledLink>.
+        <StyledLink to="/about"> HERE</StyledLink>.
       </p>
     </Row>
     <Row>
@@ -46,7 +46,7 @@ const IndexPage = () => (
       <p style={{ marginBottom: 0, marginLeft: 15 }}>
         It's good to talk, so if you would like to work together, chat or
         anything else then you can contact me
-        <StyledLink to="/blog"> HERE</StyledLink>.
+        <StyledLink to="/contact"> HERE</StyledLink>.
       </p>
     </Row>
   </Layout>
