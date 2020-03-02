@@ -4,6 +4,7 @@ import Layout from "../components/shared/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
 import { Heading } from "../components/shared/Shared"
+import Img from "gatsby-image"
 
 class BlogIndex extends React.Component {
   render() {
@@ -25,6 +26,14 @@ class BlogIndex extends React.Component {
                     <Title to={node.frontmatter.path}>{title}</Title>
                   </h3>
                   <p style={{ fontWeight: 700 }}>{node.frontmatter.date}</p>
+                  {node.frontmatter.featuredImage && (
+                    <Img
+                      style={{ width: 400, marginBottom: 10 }}
+                      fluid={
+                        node.frontmatter.featuredImage.childImageSharp.fluid
+                      }
+                    />
+                  )}
                 </div>
                 <div>
                   <p
@@ -59,7 +68,13 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             path
-            description
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

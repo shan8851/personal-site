@@ -3,16 +3,19 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/shared/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
+import Img from "gatsby-image"
 
 export default function Template({ data }) {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
+
   return (
     <Layout>
       <SEO title={frontmatter.title} />
       <BlogPostWrapper>
         <h1>{frontmatter.title}</h1>
         <Date>{frontmatter.date}</Date>
+        <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -30,6 +33,13 @@ export const pageQuery = graphql`
         date(formatString: "DD, MM, YYYY")
         path
         title
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
