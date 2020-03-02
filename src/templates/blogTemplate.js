@@ -15,7 +15,9 @@ export default function Template({ data }) {
       <BlogPostWrapper>
         <h1>{frontmatter.title}</h1>
         <Date>{frontmatter.date}</Date>
-        <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
+        {frontmatter.featuredImage && (
+          <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
+        )}
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
