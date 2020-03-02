@@ -1,21 +1,25 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/shared/layout"
-import SEO from "../components/seo"
 import styled from "styled-components"
-import { Heading } from "../components/shared/Shared"
+import SEO from "../components/seo"
+import { Heading, StyledLink } from "../components/shared/Shared"
 import Img from "gatsby-image"
 
-class BlogIndex extends React.Component {
+export default class BlogList extends React.Component {
   render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
-
+    //path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+    const { currentPage, numPages } = this.props.pageContext
+    const isFirst = currentPage === 1
+    const isLast = currentPage === numPages
+    const prevPage =
+      currentPage - 1 === 1 ? "/blog" : `/blog/${(currentPage - 1).toString()}`
+    const nextPage = `/blog/${(currentPage + 1).toString()}`
+    const posts = this.props.data.allMarkdownRemark.edges
     return (
-      <Layout location={this.props.title} title={siteTitle}>
-        <SEO title="Blog" />
+      <Layout>
         <IndexWrapper>
+          {console.log("HERE", currentPage)}
           <Heading>All Posts</Heading>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title
@@ -45,22 +49,31 @@ class BlogIndex extends React.Component {
               </div>
             )
           })}
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            {!isFirst && (
+              <StyledLink to={prevPage} rel="prev">
+                ← Previous Page
+              </StyledLink>
+            )}
+            {!isLast && (
+              <StyledLink to={nextPage} rel="next">
+                Next Page →
+              </StyledLink>
+            )}
+          </div>
         </IndexWrapper>
       </Layout>
     )
   }
 }
 
-export default BlogIndex
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+export const blogListQuery = graphql`
+  query blogListQuery($skip: Int!, $limit: Int!) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: $limit
+      skip: $skip
+    ) {
       edges {
         node {
           excerpt
@@ -83,6 +96,7 @@ export const pageQuery = graphql`
 `
 const IndexWrapper = styled.div`
   margin: 50px 0;
+  min-width: 50vw;
 `
 
 const Title = styled(Link)`
