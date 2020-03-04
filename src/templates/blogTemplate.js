@@ -16,7 +16,15 @@ export default function Template({ data }) {
         <h1>{frontmatter.title}</h1>
         <Date>{frontmatter.date}</Date>
         {frontmatter.featuredImage && (
-          <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
+          <Img
+            style={{
+              maxHeight: 300,
+              maxWidth: 600,
+              margin: "auto",
+              marginBottom: 30,
+            }}
+            fluid={frontmatter.featuredImage.childImageSharp.fluid}
+          />
         )}
         <div
           className="blog-post-content"
@@ -30,7 +38,7 @@ export default function Template({ data }) {
 export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
-      excerpt
+      html
       frontmatter {
         date(formatString: "DD, MM, YYYY")
         path
