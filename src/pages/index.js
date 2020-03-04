@@ -25,7 +25,7 @@ const IndexPage = () => (
       </div>
     </div>
     <Row>
-      <FaPenAlt color="#33B284" size={40} />
+      <FaPenAlt color="#33B284" size={30} />
 
       <p style={{ marginBottom: 0, marginLeft: 15 }}>
         I love to ramble, check out my blog
@@ -33,7 +33,7 @@ const IndexPage = () => (
       </p>
     </Row>
     <Row>
-      <FaInfo color="#33B284" size={40} />
+      <FaInfo color="#33B284" size={30} />
 
       <p style={{ marginBottom: 0, marginLeft: 15 }}>
         Want to know more about me? Go
@@ -41,7 +41,7 @@ const IndexPage = () => (
       </p>
     </Row>
     <Row>
-      <FaRocketchat color="#33B284" size={40} />
+      <FaRocketchat color="#33B284" size={30} />
 
       <p style={{ marginBottom: 0, marginLeft: 15 }}>
         It's good to talk, so if you would like to work together, chat or
