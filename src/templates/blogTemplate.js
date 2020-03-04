@@ -7,13 +7,14 @@ import Img from "gatsby-image"
 
 export default function Template({ data }) {
   const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, html, fields } = markdownRemark
 
   return (
     <Layout>
       <SEO title={frontmatter.title} />
       <BlogPostWrapper>
-        <h1>{frontmatter.title}</h1>
+        <h1 style={{ marginBottom: 0 }}>{frontmatter.title}</h1>
+        <p style={{ marginBottom: 10 }}>{fields.readingTime.text}</p>
         <Date>{frontmatter.date}</Date>
         {frontmatter.featuredImage && (
           <Img
@@ -49,6 +50,11 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+      }
+      fields {
+        readingTime {
+          text
         }
       }
     }

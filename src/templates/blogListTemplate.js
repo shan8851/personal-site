@@ -29,7 +29,10 @@ export default class BlogList extends React.Component {
                   <h3>
                     <Title to={node.frontmatter.path}>{title}</Title>
                   </h3>
-                  <p style={{ fontWeight: 700 }}>{node.frontmatter.date}</p>
+                  <p style={{ fontWeight: 700, marginBottom: 0 }}>
+                    {node.frontmatter.date}
+                  </p>
+
                   {node.frontmatter.featuredImage && (
                     <Img
                       style={{ width: 400, marginBottom: 10 }}
@@ -45,6 +48,9 @@ export default class BlogList extends React.Component {
                       __html: node.excerpt,
                     }}
                   />
+                  <h4 style={{ fontWeight: 900 }}>
+                    {node.fields.readingTime.text}
+                  </h4>
                 </div>
               </div>
             )
@@ -87,6 +93,11 @@ export const blogListQuery = graphql`
                   ...GatsbyImageSharpFluid
                 }
               }
+            }
+          }
+          fields {
+            readingTime {
+              text
             }
           }
         }
