@@ -7,3 +7,18 @@
   font-family: "bold";
   src: url("./FuturaDemi.otf");
 }
+
+@font-face {
+  font-family: "YKLight";
+  src: url("./YanoneKaffeesatz-Light.otf");
+}
+
+@font-face {
+  font-family: "YKReg";
+  src: url("./YanoneKaffeesatz-Regular.otf");
+}
+
+@font-face {
+  font-family: "YKBold";
+  src: url("./YanoneKaffeesatz-Bold.otf");
+}

@@ -1,10 +1,9 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-import Layout from "../components/shared/layout"
 import styled from "styled-components"
 import SEO from "../components/seo"
-import { Heading, StyledLink } from "../components/shared/Shared"
 import Img from "gatsby-image"
+import Layout from "../components/layout"
 
 export default class BlogList extends React.Component {
   render() {
@@ -18,20 +17,20 @@ export default class BlogList extends React.Component {
     const posts = this.props.data.allMarkdownRemark.edges
     return (
       <Layout>
+        <HomeLink>Go Home</HomeLink>
         <IndexWrapper>
           {console.log("HERE", currentPage)}
           <Heading>All Posts</Heading>
+
           {posts.map(({ node }) => {
             const title = node.frontmatter.title
             return (
               <div key={node.frontmatter.title}>
                 <div>
-                  <h3>
-                    <Title to={node.frontmatter.path}>{title}</Title>
-                  </h3>
-                  <p style={{ fontWeight: 700, marginBottom: 0 }}>
-                    {node.frontmatter.date}
-                  </p>
+                  <Title to={node.frontmatter.path}>{title}</Title>
+                  <Date>
+                    {node.frontmatter.date}, {node.fields.readingTime.text}
+                  </Date>
 
                   {node.frontmatter.featuredImage && (
                     <Img
@@ -43,14 +42,11 @@ export default class BlogList extends React.Component {
                   )}
                 </div>
                 <div>
-                  <p
+                  <Excerpt
                     dangerouslySetInnerHTML={{
                       __html: node.excerpt,
                     }}
                   />
-                  <h4 style={{ fontWeight: 900 }}>
-                    {node.fields.readingTime.text}
-                  </h4>
                 </div>
               </div>
             )
@@ -68,6 +64,7 @@ export default class BlogList extends React.Component {
             )}
           </div>
         </IndexWrapper>
+        <HomeLink>Go Home</HomeLink>
       </Layout>
     )
   }
@@ -109,7 +106,48 @@ const IndexWrapper = styled.div`
   margin: 50px 0;
   min-width: 50vw;
 `
+const Heading = styled.h1`
+  font-size: 10vw;
+  margin-bottom: 0;
+  font-family: YKBold;
+  background: linear-gradient(to right, #2274a5, #fa198b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+`
 
+const HomeLink = styled(Link)`
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: YKBold;
+  background: linear-gradient(to right, #2274a5, #fa198b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+`
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: YKBold;
+  background: linear-gradient(to right, #2274a5, #fa198b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+`
 const Title = styled(Link)`
-  color: #000000;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: YKBold;
+  font-size: 4rem;
+`
+
+const Date = styled.p`
+  font-family: YKReg;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 1rem 0;
+`
+
+const Excerpt = styled.p`
+  font-family: YKReg;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 2rem;
 `
