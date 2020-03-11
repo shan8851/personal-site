@@ -7,23 +7,27 @@ import { Link } from "gatsby"
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Home Page" />
+      <div>
+        <SEO title="Home Page" />
 
-      <Name>asam shan</Name>
-      <Links>
-        <Linky>
-          <ClickLink to="/blog">blog</ClickLink>
-        </Linky>
-        <Linky>
-          <ClickA href="https://twitter.com/shan8851">twitter</ClickA>
-        </Linky>
-        <Linky>
-          <ClickA href="https://www.linkedin.com/in/asamshan/">linkedin</ClickA>
-        </Linky>
-        <Linky>
-          <ClickA href="mailto:asamshan456@gmail.com">email</ClickA>
-        </Linky>
-      </Links>
+        <Name>asam shan</Name>
+        <Links>
+          <Linky>
+            <ClickLink to="/blog">blog</ClickLink>
+          </Linky>
+          <Linky>
+            <ClickA href="https://twitter.com/shan8851">twitter</ClickA>
+          </Linky>
+          <Linky>
+            <ClickA href="https://www.linkedin.com/in/asamshan/">
+              linkedin
+            </ClickA>
+          </Linky>
+          <Linky>
+            <ClickA href="mailto:asamshan456@gmail.com">email</ClickA>
+          </Linky>
+        </Links>
+      </div>
     </Layout>
   )
 }
@@ -39,7 +43,7 @@ const Name = styled.h1`
   background: linear-gradient(to right, #2274a5, #fa198b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  @media (max-width: 472px) {
+  @media (max-width: 708px) {
     font-size: 29vw;
   }
 `
@@ -47,16 +51,16 @@ const Name = styled.h1`
 const Links = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding: 0 2vw;
+  width: 98%;
+  margin: auto;
 `
 
 const Linky = styled.h3`
   font-size: 12vw;
   font-family: YKBold;
   color: rgba(255, 255, 255, 0.1);
-  @media (max-width: 879px) {
-    font-size: 29vw;
+  @media (max-width: 755px) {
+    font-size: 11vw;
   }
 `
 

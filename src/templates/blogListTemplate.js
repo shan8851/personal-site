@@ -17,9 +17,8 @@ export default class BlogList extends React.Component {
     const posts = this.props.data.allMarkdownRemark.edges
     return (
       <Layout>
-        <HomeLink>Go Home</HomeLink>
+        <HomeLink style={{ marginTop: 10 }}>Go Home</HomeLink>
         <IndexWrapper>
-          {console.log("HERE", currentPage)}
           <Heading>All Posts</Heading>
 
           {posts.map(({ node }) => {
@@ -64,7 +63,7 @@ export default class BlogList extends React.Component {
             )}
           </div>
         </IndexWrapper>
-        <HomeLink>Go Home</HomeLink>
+        <HomeLink style={{ marginBottom: 10 }}>Go Home</HomeLink>
       </Layout>
     )
   }
@@ -103,14 +102,13 @@ export const blogListQuery = graphql`
   }
 `
 const IndexWrapper = styled.div`
-  margin: 50px 0;
-  min-width: 50vw;
+  padding: 50px;
 `
 const Heading = styled.h1`
-  font-size: 10vw;
+  font-size: 6rem;
   margin-bottom: 0;
   font-family: YKBold;
-  background: linear-gradient(to right, #2274a5, #fa198b);
+  background: linear-gradient(to top, #2274a5, #fa198b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `

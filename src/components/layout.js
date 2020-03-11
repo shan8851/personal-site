@@ -4,31 +4,17 @@ import "../components/layout.css"
 import "../../static/fonts/font.css"
 
 const Layout = ({ children }) => {
-  return (
-    <Wrapper>
-      <Inner>{children}</Inner>
-    </Wrapper>
-  )
+  return <Wrapper>{children}</Wrapper>
 }
 
 export default Layout
 
 const Wrapper = styled.div`
   display: flex;
-  min-height: 96vh;
-  background: linear-gradient(to right, #2274a5, #fa198b);
-  padding: 25px;
-  @media (max-width: 640px) {
-    padding: 20px;
-  }
-`
-
-const Inner = styled.div`
-  display: flex;
-  background-color: #222;
-  flex: 1;
-  padding: 5px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  background-color: #222;
+  min-height: 100vh;
+  min-width: 100vw;
 `
