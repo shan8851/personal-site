@@ -6,3 +6,72 @@
 body {
   background-color: #222;
 }
+
+h1 {
+  font-size: 6rem;
+  margin-bottom: 0;
+  font-family: YKBold;
+  background: linear-gradient(to top, #2274a5, #fa198b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+  font-family: YKBold;
+  background: linear-gradient(to top, #2274a5, #fa198b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  font-family: YKBold;
+  background: linear-gradient(to top, #2274a5, #fa198b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h4 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-family: YKBold;
+  background: linear-gradient(to top, #2274a5, #fa198b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h5 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-family: YKBold;
+  background: linear-gradient(to top, #2274a5, #fa198b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h6 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-family: YKBold;
+  background: linear-gradient(to top, #2274a5, #fa198b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: YKReg;
+  line-height: 1.4;
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+a {
+  font-family: YKBold;
+  background: linear-gradient(to right, #2274a5, #fa198b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

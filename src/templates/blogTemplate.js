@@ -13,9 +13,9 @@ export default function Template({ data }) {
     <Layout>
       <SEO title={frontmatter.title} />
       <BlogPostWrapper>
-        <h1 style={{ marginBottom: 0 }}>{frontmatter.title}</h1>
-        <p style={{ marginBottom: 10 }}>{fields.readingTime.text}</p>
+        <Heading style={{ marginBottom: 0 }}>{frontmatter.title}</Heading>
         <Date>{frontmatter.date}</Date>
+        <Date>{fields.readingTime.text}</Date>
         {frontmatter.featuredImage && (
           <Img
             style={{
@@ -28,10 +28,11 @@ export default function Template({ data }) {
           />
         )}
         <div
+          style={{ margin: "50px 0" }}
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <BackLink to="/blog/">Back to index</BackLink>
+        <BackLink to="/blog/">← Back to index</BackLink>
       </BlogPostWrapper>
     </Layout>
   )
@@ -61,19 +62,29 @@ export const pageQuery = graphql`
   }
 `
 const BlogPostWrapper = styled.div`
-  margin: 50px 0;
+  margin: 50px 50px;
+`
+
+const Heading = styled.h1`
+  font-size: 6rem;
+  margin-bottom: 0;
+  font-family: YKBold;
+  background: linear-gradient(to top, #2274a5, #fa198b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 `
 
 const BackLink = styled(Link)`
-  color: #33b284;
   text-decoration: none;
-  font-family: bold;
-  font-size: 1.2rem;
-  border-bottom: 4px solid black;
+  font-size: 1.5rem;
+  font-family: YKBold;
+  background: linear-gradient(to right, #2274a5, #fa198b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 `
 
 const Date = styled.p`
-  font-family: bold;
-  font-size: 1.4rem;
-  color: #33b284;
+  font-family: YKBold;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.4);
 `
