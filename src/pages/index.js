@@ -40,7 +40,11 @@ const Name = styled.h1`
   margin-bottom: 0;
   line-height: 0.8;
   font-family: YKBold;
-  background: linear-gradient(to right, #2274a5, #fa198b);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   @media (max-width: 708px) {
@@ -65,10 +69,13 @@ const Linky = styled.h3`
 `
 
 const ClickLink = styled(Link)`
-  text-decoration: none;
-  color: inherit;
-  &:hover {
-    color: rgba(255, 255, 255, 0.4);
+  &&&&& {
+    text-decoration: none;
+    background: none;
+    color: red;
+    &:hover {
+      color: rgba(255, 255, 255, 0.4);
+    }
   }
 `
 

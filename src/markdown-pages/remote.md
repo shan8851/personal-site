@@ -1,6 +1,6 @@
 ---
-path: "/blog/freedom"
-date: "2020-03-03"
+path: "/blog/remote-working-guide"
+date: "2020-03-17"
 title: "Remote Working Guide"
 featuredImage: "../images/remote.jpeg"
 ---
@@ -11,29 +11,29 @@ It seems my last post was way more timely that I thought. As I mentioned I have 
 
 First up is your work station. We all can't have those beautiful, super clean, super modern home offices, but we should not be working from inside our beds either, so first things first get your gear on a desk or at the very least your dining table. Working from the couch occasionally is ok imo, but for the most part you should have a solid base.
 
-- Make sure your area is relatively tidy, just with your essentials close by, things like your headphones, water bottle, coffee mug, notebook etc.
-- Make sure there is a lamp close by or ample natural light during your work hours
-- Software. Zoom, Slack, Skype, Hangouts... You get the idea.
-- Not too many distractions.
+1 Make sure your area is relatively tidy, just with your essentials close by, things like your headphones, water bottle, coffee mug, notebook etc.<br />
+2 Make sure there is a lamp close by or ample natural light during your work hours<br />
+3 Software. Zoom, Slack, Skype, Hangouts... You get the idea.<br />
+4 Not too many distractions.<br />
 
 ## Video Calls
 
 The biggest downside to WFH for most people is the lack of interaction from others, now I don't mind this so much, but some people really feel isolated from home. To combat this many people are now using videos for as much communication as possible. Here is the idiots guide to not looking a fool.
 
-- Make sure you are out of your PJs.
-- Decent lighting
-- Camera angle at eye level or slightly higher
-- No weird mess/pictures in the background, if you wanna have some fun then play around with Zoom virtual backgrounds.
-- Mute yourself when you are not talking.
-- Try have some idea of what you are going to say before the action is on you.
+1 Make sure you are out of your PJs.<br />
+2 Decent lighting<br />
+3 Camera angle at eye level or slightly higher<br />
+4 No weird mess/pictures in the background, if you wanna have some fun then play around with Zoom virtual backgrounds.<br />
+5 Mute yourself when you are not talking.<br />
+6 Try have some idea of what you are going to say before the action is on you.<br />
 
 ## Scheduling
 
 Just because you are WFH does not mean you should let all your other scheduling and habits go out of the window. To combat this:
 
-- Set a time to start and finish work as you normally would - and stick to it.
-- Same goes for breaks, lunch and otherwise, get up, walk around, get some air etc.
-- Plan your meals, don't be spending hours in the kitchen knocking up a 5 course meal, you're at work, remember?
+1 Set a time to start and finish work as you normally would - and stick to it.<br />
+2 Same goes for breaks, lunch and otherwise, get up, walk around, get some air etc.<br />
+3 Plan your meals, don't be spending hours in the kitchen knocking up a 5 course meal, you're at work, remember?<br />
 
 ## Extras
 

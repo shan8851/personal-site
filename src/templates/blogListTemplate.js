@@ -107,17 +107,13 @@ const IndexWrapper = styled.div`
 const Heading = styled.h1`
   font-size: 6rem;
   margin-bottom: 0;
-  font-family: YKBold;
-  background: linear-gradient(to top, #2274a5, #fa198b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 `
 
 const HomeLink = styled(Link)`
   text-decoration: none;
   font-size: 2rem;
   font-family: YKBold;
-  background: linear-gradient(to right, #2274a5, #fa198b);
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `
@@ -125,10 +121,6 @@ const HomeLink = styled(Link)`
 const StyledLink = styled(Link)`
   text-decoration: none;
   font-size: 2rem;
-  font-family: YKBold;
-  background: linear-gradient(to right, #2274a5, #fa198b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 `
 const Title = styled(Link)`
   color: rgba(255, 255, 255, 0.4);

@@ -69,7 +69,11 @@ const Heading = styled.h1`
   font-size: 6rem;
   margin-bottom: 0;
   font-family: YKBold;
-  background: linear-gradient(to top, #2274a5, #fa198b);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `
@@ -78,7 +82,11 @@ const BackLink = styled(Link)`
   text-decoration: none;
   font-size: 1.5rem;
   font-family: YKBold;
-  background: linear-gradient(to right, #2274a5, #fa198b);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `
