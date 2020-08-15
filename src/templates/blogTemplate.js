@@ -28,7 +28,7 @@ export default function Template({ data }) {
           />
         )}
         <div
-          style={{ margin: "50px 0" }}
+          style={{ maxWidth: "42rem", padding: "2.6rem 1.3rem" }}
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
