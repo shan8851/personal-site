@@ -102,7 +102,8 @@ export const blogListQuery = graphql`
   }
 `
 const IndexWrapper = styled.div`
-  padding: 50px;
+  max-width: 42rem;
+  padding: 2.6rem 1.3rem;
 `
 const Heading = styled.h1`
   font-size: 6rem;
