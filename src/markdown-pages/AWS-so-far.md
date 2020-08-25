@@ -4,8 +4,6 @@ date: "2020-08-23"
 title: "AWS So Far"
 ---
 
-# AWS So Far
-
 I have recently been working on moving my personal site to a VPS instance, it has been a great learning experience. It is a lot more involved than it initially seems, so I figured documenting a brief overview of each step would be helpful for me to determine my level of understanding and also a great tool in highlighting any gaps in my understanding.
 
 ## Registering a domain
