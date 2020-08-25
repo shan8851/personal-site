@@ -126,7 +126,7 @@ const StyledLink = styled(Link)`
 const Title = styled(Link)`
   color: rgba(255, 255, 255, 0.4);
   font-family: YKBold;
-  font-size: 4rem;
+  font-size: 3rem;
 `
 
 const Date = styled.p`
