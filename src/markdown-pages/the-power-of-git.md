@@ -8,9 +8,11 @@ I have mentioned a few times that I have been helping a few people try and break
 
 I (think) I make it clear to them that they’re not a lock for a job, they will need some luck etc. But I always suggest applying early for a few reasons:
 
-- You start making contacts in the industry
-- You get interview practice and insights into what companies in your region are looking for
-- If you get lucky and get hired then great
+You start making contacts in the industry - never too early to network.
+
+You get interview practice and insights into what companies in your region are looking for - everywhere is different so having a handle on your region is important.
+
+If you get lucky and get hired then great - you learn more in the first month or two on the job than the previous 6 months on your own.
 
 Obviously any of the above is great. But the main point here is that once you get to the stage of applying for jobs you are not done with learning… This is the beginning of a very long journey of constant learning.
 
