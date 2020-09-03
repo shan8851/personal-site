@@ -1,5 +1,5 @@
 ---
-path: "/blog/more-devops"
+path: "/blog/power-of-git"
 date: "2020-09-03"
 title: "The Power of Git"
 ---
